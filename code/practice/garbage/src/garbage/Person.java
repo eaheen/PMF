@@ -4,7 +4,7 @@ public class Person {
 	private String name;
 	private int age;
 	private int height;
-	private float weight;
+	private int weight;
 	private String eyeColor;
 	private String gender;
 	public Person(String name, int age, int height, int weight, String eyeColor, String gender) {
@@ -33,10 +33,10 @@ public class Person {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	public float getWeight() {
+	public int getWeight() {
 		return weight;
 	}
-	public void setWeight(float weight) {
+	public void setWeight(int weight) {
 		this.weight = weight;
 	}
 	public String getEyeColor() {
@@ -50,5 +50,9 @@ public class Person {
 	}
 	public void setGender(String gender) {
 		this.gender = gender;
-	} 
+	}
+	
+	public static void main(String[args()]) {
+		
+	}
 }

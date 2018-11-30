@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import org.junit.Test;
 
 public class PersonTest {
-
+	
 	@Test
 	public void testPerson() {
 	  Person p = new Person("Joe Q Author", 42, 173, 82, "Brown", "MALE");
@@ -23,5 +23,5 @@ public class PersonTest {
 	  assertEquals("Brown", p.getEyeColor());
 	  assertEquals("MALE", p.getGender());
 	}
-
+	
 }
